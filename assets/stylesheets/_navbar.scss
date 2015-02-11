@@ -1,0 +1,35 @@
+#navbar {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 2em 4em;
+
+  #navbar-initials {
+    display: inline-block;
+    color: $dark-gray;
+    font-size: 175%;
+  }
+
+  #navbar-options {
+    display: block;
+    float: right;
+    position: relative;
+    top: .5em;
+
+    li {
+      padding-left: 2em;
+      display: inline-block;
+    }
+
+    a {
+      font-size: 90%;
+      font-family: $feature-sans-serif-stack;
+      text-decoration: none;
+      color: $light-gray;
+      &:hover {
+        color: $dark-gray;
+        transition: .3s;
+      }
+    }
+  }
+
+}

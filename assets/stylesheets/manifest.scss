@@ -1,3 +1,15 @@
 // all stylesheets are imported here
 // and this file is compiled in gulp
 
+@import "variables";
+
+@import "fonts";
+
+@import "global";
+
+@import "navbar";
+
+body {
+  background: gray;
+  width: 100%;
+}
