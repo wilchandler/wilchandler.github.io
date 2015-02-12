@@ -1,12 +1,29 @@
 #navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+
+  a {
+    line-height: 1;
+  }
+
   width: 100%;
   background-color: #FFFFFF;
-  padding: 2em 4em;
+  padding: 1em 2em;
 
   #navbar-initials {
     display: inline-block;
-    color: $dark-gray;
     font-size: 175%;
+
+    a {
+      color: $dark-gray;
+      text-decoration: none;
+      &:hover {
+        color: $light-gray;
+        transition: .3s;
+      }
+    }
   }
 
   #navbar-options {
@@ -31,5 +48,7 @@
       }
     }
   }
+
+  border-bottom: 1px solid $light-gray;
 
 }

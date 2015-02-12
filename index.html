@@ -4,17 +4,86 @@
   <link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
 </head>
 <body id="body-home">
-  <div id="navbar">
-    <h1 id="navbar-initials">WC</h1>
 
-    <ul id="navbar-options">
-      <li><a href="">WORK</a></li>
-      <li><a href="">ABOUT</a></li>
-      <li><a href="">CONTACT</a></li>
-    </ul>
+  <div id="bigvid-container">
+    <video autoplay loop id="bigvid-video" poster="">
+      <!-- need video and poster! -->
+      <source src="" type="video/webm">
+      <source src="" type="video/mp4">
 
+      <!-- need IE8 compatibility! -->
+    </video>
   </div>
 
-  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:300,300italic' rel='stylesheet' type='text/css'>
+      <div id="navbar">
+        <h1 id="navbar-initials"><a href="#" class="nav-link">WC</a></h1>
+
+        <ul id="navbar-options">
+          <li><a href="#about" class="nav-link">ABOUT</a></li>
+          <li><a href="#work" class="nav-link">WORK</a></li>
+          <li><a href="#footer" class="nav-link">CONTACT</a></li>
+        </ul>
+
+      </div> <!-- #navbar -->
+
+
+  <div id="index-nonvid">
+    <div id="index-top">
+
+      <div id="index-desc">
+        <h2>
+          Hi, I'm <span class="ital">Wil</span>.<br>
+          I like to make things for the <span class="ital">web</span>.
+        </h2>
+      </div> <!-- #index-desc -->
+
+    </div> <!-- #index-top -->
+
+    <div id="index-bottom">
+      <div id="about">
+        <h3>About</h3>
+        <p id="about-desc">
+          Worked as an award-winning <a href="http://wilchandler.com/">photojournalist</a>.</br></br>
+
+          Graduated from Hendrix College with an English literature degree.</br>
+          Discovered computer science towards the end. Loved it.</br></br>
+
+          Went to <a href="http://devbootcamp.com/">Dev Bootcamp</a>. Learned a ton.  Realized, without a doubt, that development was what I wanted to do with my life.</br></br>
+
+          Now looking for opportunities to contribute to a web development team in Little Rock, AR, or Chicago, IL.
+        </p>
+        <a id="resume" href="resume.pdf">
+          <div id="resume-box">View Resume</div>
+        </a>
+      </div> <!-- #about -->
+
+      <div id="work">
+        <h3>Work</h3>
+      </div> <!-- #work -->
+
+      <div id="footer">
+        <div id="footer-icons">
+          <h4>Get in touch</h4>
+
+          <a href="https://github.com/wilchandler">
+            <span class="fa fa-github-square fa-3x"></span>
+          </a>
+          <a href="https://twitter.com/wil_chandler">
+            <span class="fa fa-twitter-square fa-3x"></span>
+          </a>
+          <a href="https://www.linkedin.com/in/wilchandler">
+            <span class="fa fa-linkedin-square fa-3x"></span>
+          </a>
+          <a href="mailto:wilchandler2@gmail.com">
+            <span class="fa fa-envelope-square fa-3x"></span>
+          </a>
+        </div>
+      </div> <!-- #footer -->
+    </div>  <!-- #index-bottom -->
+  </div> <!-- #index-nonvid -->
+
+  <!-- Google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:100,100italic,300,300italic,400italic' rel='stylesheet' type='text/css'>
+  <script src="assets/javascripts/all.js"></script>
 </body>
 </html>

@@ -2,6 +2,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $feature-sans-serif-stack;
 }
 
-a, p {
-  font-family: $body-sans-serif-stack;
+h1, h2, h3, h4, h5, h6, p {
+  line-height: 1.5;
+}
+
+.ital {
+  font-style: italic;
 }

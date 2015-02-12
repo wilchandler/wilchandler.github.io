@@ -1,0 +1,38 @@
+#footer {
+  background-color: $dark-gray;
+  width: 100%;
+  padding-top: 8em;
+  padding-bottom: 12em;
+
+  #footer-icons {
+    text-align: center;
+
+    h4 {
+      color: $light-gray;
+      font-family: $body-sans-serif-stack;
+      font-weight: 300;
+      font-style: italic;
+      font-size: 150%;
+      margin-bottom: .5em;
+    }
+
+    a {
+      color: $light-gray;
+      text-decoration: none;
+      margin: 0 .25em;
+      &:hover {
+        color: #FFFFFF;
+        transition: .3s;
+      }
+    }
+  }
+
+  p {
+    font-family: $body-sans-serif-stack;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    margin-top: 1em;
+    color: $light-gray;
+  }
+}
