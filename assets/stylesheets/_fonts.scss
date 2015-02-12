@@ -1,11 +1,22 @@
-h1, h2, h3, h4, h5, h6 {
-  font-family: $feature-sans-serif-stack;
-}
+// h1, h2, h3, h4, h5, h6 {
+//   font-family: $feature-sans-serif-stack;
+// }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, li, a {
   line-height: 1.5;
+  font-weight: 300;
+  color: $dark-gray;
+  font-family: $body-sans-serif-stack;
 }
 
 .ital {
   font-style: italic;
+}
+
+a {
+  font-weight: 300;
+}
+
+p {
+  font-weight: 300;
 }

@@ -15,6 +15,7 @@
   #navbar-initials {
     display: inline-block;
     font-size: 175%;
+    font-weight: 400;
 
     a {
       color: $dark-gray;
@@ -40,6 +41,7 @@
     a {
       font-size: 90%;
       font-family: $feature-sans-serif-stack;
+      font-weight: 400;
       text-decoration: none;
       color: $light-gray;
       &:hover {
