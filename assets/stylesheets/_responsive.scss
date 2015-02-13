@@ -35,6 +35,37 @@
   #footer-contact {
     font-weight: 300;
   }
+
+  #navbar {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+
+    #navbar-initials {
+      display: inline-block;
+    }
+
+    #navbar-options {
+      float: right;
+      position: relative;
+      top: .5em;
+
+      li {
+        padding-left: 2em;
+        display: inline-block;
+      }
+    }
+  }
+
+  #index-top {
+    height: 100%;
+
+    #index-desc {
+        position: absolute;
+        bottom: 40%;
+        left: 10%;
+    }
+  }
 }
 
 @media (max-width: 899px) {
@@ -54,6 +85,14 @@
 
   #footer-contact {
     font-weight: 400;
+  }
+
+  #index-desc {
+    margin-left: 2em;
+  }
+
+  #navbar-initials {
+    margin-bottom: 1em;
   }
 }
 

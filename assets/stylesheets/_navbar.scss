@@ -1,8 +1,5 @@
 #navbar {
-  position: fixed;
-  top: 0;
   width: 100%;
-  z-index: 2;
 
   a {
     line-height: 1;
@@ -13,7 +10,6 @@
   padding: 1em 2em;
 
   #navbar-initials {
-    display: inline-block;
     font-size: 1.75em;
     font-weight: 400;
 
@@ -29,15 +25,6 @@
 
   #navbar-options {
     display: block;
-    float: right;
-    position: relative;
-    top: .5em;
-
-    li {
-      padding-left: 2em;
-      display: inline-block;
-    }
-
     a {
       font-size: .9em;
       font-family: $feature-sans-serif-stack;
