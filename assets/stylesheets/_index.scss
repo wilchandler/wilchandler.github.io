@@ -86,8 +86,8 @@
         .work-example {
           vertical-align: top;
           word-wrap: break-word;
-          display: inline-block;
-          width: 30%;
+          // display: inline-block;
+          // width: 30%;
           padding: 1em 2em;
           h4 {
             text-align: center;
@@ -126,21 +126,6 @@
             font-weight: 300;
           }
 
-        }
-
-        .work-example-left, .work-example-middle {
-          margin-right: 4%;
-        }
-
-        .work-example-middle {
-          position: relative;
-          left: .5%;
-        }
-
-        .work-example-right {
-          margin-right: 0;
-          position: relative;
-          left: 1%;
         }
       }
 
