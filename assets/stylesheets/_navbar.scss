@@ -25,9 +25,7 @@
   }
 
   #navbar-options {
-    float: right;
-    position: relative;
-    top: .5em;
+
 
     li {
       padding-left: 2em;
@@ -57,6 +55,9 @@
 
     #navbar-options {
       display: block;
+      float: right;
+      position: relative;
+      top: .5em;
 
       li {
         font-size: .9em;
@@ -86,6 +87,7 @@
       padding: 1em .5em;
 
       li {
+        display: block;
         margin-top: 1em;
         font-family: $body-sans-serif-stack;
         font-size: 1.25em;
