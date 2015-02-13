@@ -38,9 +38,7 @@
   }
 
   #navbar {
-    position: fixed;
-    top: 0;
-    z-index: 2;
+
 
     #navbar-initials {
       display: inline-block;
@@ -67,6 +65,7 @@
         left: 10%;
         h2 {
           color: #C5C5C5;
+          font-weight: 100;
         }
     }
   }
@@ -82,15 +81,19 @@
   }
 
   #index-desc {
+    width: 100%;
     height: 100%;
+    margin: 0;
+    background: url(../video/posterWhite.jpg) #FFFFFF no-repeat center center fixed;
+    padding: 4em 2em;
+
     h2 {
-      margin: 1em;
       color: $dark-gray;
+      font-weight: 300;
     }
   }
 
   body {
-    background: url(../video/posterWhite.jpg) #FFFFFF no-repeat center center fixed;
   }
 
   #bigvid-container {
@@ -113,14 +116,6 @@
 
   #footer-contact {
     font-weight: 400;
-  }
-
-  #index-desc {
-    margin-left: 2em;
-  }
-
-  #navbar-initials {
-    margin-bottom: 1em;
   }
 
   #resume-box {
