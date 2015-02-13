@@ -3,6 +3,7 @@
     display: inline-block;
     width: 30%;
     margin: 0 auto;
+    padding: 1em 2em;
   }
 
   .work-example-left, .work-example-middle {
@@ -70,7 +71,12 @@
 
 @media (max-width: 899px) {
   html {
+    width: 100%;
     font-size: 150%;
+  }
+
+  #bigvid-container {
+    display: none;
   }
 
   .work-example {
@@ -96,9 +102,9 @@
   }
 }
 
-@media (max-width: 770px) {
-  html {
-    font-size: 200%;
-  }
-}
+// @media (max-width: 770px) {
+//   html {
+//     font-size: 200%;
+//   }
+// }
 
