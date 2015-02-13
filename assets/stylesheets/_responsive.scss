@@ -67,6 +67,10 @@
         left: 10%;
     }
   }
+
+  #resume-box {
+    width: 33%;
+  }
 }
 
 @media (max-width: 899px) {
@@ -99,6 +103,10 @@
 
   #navbar-initials {
     margin-bottom: 1em;
+  }
+
+  #resume-box {
+    width: 80%;
   }
 }
 
