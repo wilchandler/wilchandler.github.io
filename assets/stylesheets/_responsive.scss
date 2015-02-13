@@ -2,6 +2,7 @@
   .work-example {
     display: inline-block;
     width: 30%;
+    margin: 0 auto;
   }
 
   .work-example-left, .work-example-middle {
@@ -18,17 +19,41 @@
     position: relative;
     left: 1%;
   }
+
+  #about-desc {
+    width: 60%;
+  }
+
+  #work-open-source {
+    width: 66%;
+  }
+
+  #work-examples-container {
+    width: 80%;
+  }
 }
 
 @media (max-width: 899px) {
   html {
-    font-size: 200%;
+    font-size: 150%;
   }
 
   .work-example {
     display: block;
     width: 95%;
-    margin-top: 2em;
+    margin: 2em auto 4em;
   }
 
+  #about-desc, #work-open-source, #work-examples-container {
+    width: 90%;
+  }
+
+
 }
+
+@media (max-width: 770px) {
+  html {
+    font-size: 200%;
+  }
+}
+

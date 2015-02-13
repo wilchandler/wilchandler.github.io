@@ -33,7 +33,7 @@
 
     #about {
       #about-desc {
-        width: 60%;
+        // width: 60%;
         min-width: 500px;
         margin: 0 auto 2em auto;
         font-size: 1.25em;
@@ -76,7 +76,6 @@
       margin-bottom: 2em;
 
       #work-examples-container {
-        width: 80%;
         margin: 0 auto;
 
         li {
@@ -86,8 +85,6 @@
         .work-example {
           vertical-align: top;
           word-wrap: break-word;
-          // display: inline-block;
-          // width: 30%;
           padding: 1em 2em;
           h4 {
             text-align: center;
@@ -130,7 +127,7 @@
       }
 
       #work-open-source {
-        width: 66%;
+        // width: 66%;
         min-width: 400px;
         margin: 4em auto 2em auto;
 
