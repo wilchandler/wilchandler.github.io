@@ -10,6 +10,7 @@
   }
 
   #navbar-initials {
+    display: inline-block;
     font-size: 1.75em;
     font-weight: 400;
 
@@ -24,6 +25,15 @@
   }
 
   #navbar-options {
+    float: right;
+    position: relative;
+    top: .5em;
+
+    li {
+      padding-left: 2em;
+      display: inline-block;      
+    }
+
     a {
       text-decoration: none;
       color: $light-gray;
