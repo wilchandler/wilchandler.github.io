@@ -62,12 +62,12 @@
     height: 100%;
 
     #index-desc {
-        // color: $light-gray;
-        // color: #E6E6E6;
         position: absolute;
         bottom: 20%;
         left: 10%;
-        // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        h2 {
+          color: #C5C5C5;
+        }
     }
   }
 
@@ -79,10 +79,25 @@
 @media (max-width: 899px) {
   html {
     width: 100%;
-    // font-size: 150%;
+  }
+
+  #index-desc {
+    height: 100%;
+    h2 {
+      margin: 1em;
+      color: $dark-gray;
+    }
+  }
+
+  body {
+    background: url(../video/posterWhite.jpg) #FFFFFF no-repeat center center fixed;
   }
 
   #bigvid-container {
+    display: none;
+  }
+
+  #bigvid-video {
     display: none;
   }
 
@@ -112,10 +127,4 @@
     width: 80%;
   }
 }
-
-// @media (max-width: 770px) {
-//   html {
-//     font-size: 200%;
-//   }
-// }
 
