@@ -7,6 +7,11 @@
   width: 100%;
   overflow: hidden;
 
+  video {
+    opacity: 0.95;
+    filter: alpha(opacity=95); /* For IE8 and earlier */
+  }
+
   #bigvid-video {
     min-width: 100%;
     min-height: 100%;
